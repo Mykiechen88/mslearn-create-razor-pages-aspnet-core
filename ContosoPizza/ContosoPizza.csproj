@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+</PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
